@@ -1,6 +1,6 @@
 import path, { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 import { after, afterEach, beforeEach, describe, esmocha, expect, it } from 'esmocha';
 
 const { execa } = await esmocha.mock('execa', import('execa'));

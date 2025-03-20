@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import { after, afterEach, before, beforeEach, describe, expect, it } from 'esmocha';
 import { QueuedAdapter } from '@yeoman/adapter';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 import assert from 'yeoman-assert';
 import Environment, { createEnv as createEnvironment } from '../src/index.js';
 import { resolveModulePath } from '../src/util/resolve.js';

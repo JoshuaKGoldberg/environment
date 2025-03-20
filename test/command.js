@@ -2,7 +2,7 @@ import assert from 'node:assert';
 import path, { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 import { beforeEach, describe, it } from 'esmocha';
 import { prepareCommand } from '../src/commands.js';
 import Environment from '../src/index.js';

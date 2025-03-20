@@ -1,5 +1,5 @@
 import assert from 'node:assert';
-import sinon from 'sinon';
+import * as sinon from 'sinon';
 import { after, afterEach, before, beforeEach, describe, esmocha, expect, it } from 'esmocha';
 import helpers, { getCreateEnv as getCreateEnvironment } from './helpers.js';
 import { greaterThan5 } from './generator-versions.js';
